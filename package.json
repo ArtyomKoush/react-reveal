@@ -51,6 +51,8 @@
     "uglify-js": "^2.7.3"
   },
   "scripts": {
-    "build": "./node_modules/gulp/bin/gulp.js clean"
+    "build": "./node_modules/gulp/bin/gulp.js build",
+    "prepare": "npm run build",
+    "clean": "./node_modules/gulp/bin/gulp.js clean"
   }
 }
